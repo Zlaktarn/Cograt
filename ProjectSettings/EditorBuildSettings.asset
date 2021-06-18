@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu/MainMenu.unity
+    guid: 6f693759c6152814c9b8c1dba4ee2b91
+  - enabled: 1
+    path: Assets/Scenes/MapGood/Tutorial.unity
+    guid: d5fc47b7b47b10646b035156c38c8d14
+  - enabled: 1
+    path: Assets/Scenes/MapGood/Level1.unity
+    guid: bc2f736641872ac4e978b3ce13921485
+  - enabled: 1
+    path: Assets/Scenes/MapGood/Level2.unity
+    guid: 81c4176ac723bc747a3296efea5d54cf
+  - enabled: 1
+    path: Assets/Scenes/MapGood/Level3.unity
+    guid: 7a7488c4b2872a343ae00fbe306fabd7
+  - enabled: 1
+    path: Assets/Scenes/MapGood/Level4.unity
+    guid: f8117057942706f4a9992fce06d5e1cb
+  - enabled: 1
+    path: Assets/Scenes/MapGood/Level5.unity
+    guid: d656e33c30b2fad48936a2f5f246c7c9
+  - enabled: 1
+    path: Assets/Scenes/MapGood/Level6.unity
+    guid: 265dce8800ee62f4da09200ba52512b7
+  - enabled: 1
+    path: Assets/Scenes/MapGood/Prototype.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  m_configObjects: {}

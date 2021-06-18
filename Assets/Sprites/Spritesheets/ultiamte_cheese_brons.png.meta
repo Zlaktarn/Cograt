@@ -1,0 +1,1184 @@
+fileFormatVersion: 2
+guid: 11b52fc9d0b29864597194467f769440
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7465703547469425568
+    second: ultiamte_cheese_brons_0
+  - first:
+      213: -4765822684308514419
+    second: ultiamte_cheese_brons_1
+  - first:
+      213: 5205824235661283114
+    second: ultiamte_cheese_brons_2
+  - first:
+      213: 5746720338573201938
+    second: ultiamte_cheese_brons_3
+  - first:
+      213: 315954653444938687
+    second: ultiamte_cheese_brons_4
+  - first:
+      213: 1088193714223165221
+    second: ultiamte_cheese_brons_5
+  - first:
+      213: -3608574710976718806
+    second: ultiamte_cheese_brons_6
+  - first:
+      213: -6840856056014519366
+    second: ultiamte_cheese_brons_7
+  - first:
+      213: -540987908853543829
+    second: ultiamte_cheese_brons_8
+  - first:
+      213: -4978942707799420610
+    second: ultiamte_cheese_brons_9
+  - first:
+      213: 1186276120071204878
+    second: ultiamte_cheese_brons_10
+  - first:
+      213: -464814178211348454
+    second: ultiamte_cheese_brons_11
+  - first:
+      213: -3858459890513994372
+    second: ultiamte_cheese_brons_12
+  - first:
+      213: -1939932685462915619
+    second: ultiamte_cheese_brons_13
+  - first:
+      213: -8180262720428195420
+    second: ultiamte_cheese_brons_14
+  - first:
+      213: -6285022970832154159
+    second: ultiamte_cheese_brons_15
+  - first:
+      213: -6060532492605605955
+    second: ultiamte_cheese_brons_16
+  - first:
+      213: -855320038630855607
+    second: ultiamte_cheese_brons_17
+  - first:
+      213: -6164886649157905709
+    second: ultiamte_cheese_brons_18
+  - first:
+      213: -275845890019979688
+    second: ultiamte_cheese_brons_19
+  - first:
+      213: 1767307088635719063
+    second: ultiamte_cheese_brons_20
+  - first:
+      213: -7065352447364846499
+    second: ultiamte_cheese_brons_21
+  - first:
+      213: 7198338460915806241
+    second: ultiamte_cheese_brons_22
+  - first:
+      213: 405091346190336724
+    second: ultiamte_cheese_brons_23
+  - first:
+      213: 4733957717752537563
+    second: ultiamte_cheese_brons_24
+  - first:
+      213: 4489483145890686852
+    second: ultiamte_cheese_brons_25
+  - first:
+      213: 1800657092463727261
+    second: ultiamte_cheese_brons_26
+  - first:
+      213: 5784975834778170716
+    second: ultiamte_cheese_brons_27
+  - first:
+      213: 1526401310991554725
+    second: ultiamte_cheese_brons_28
+  - first:
+      213: -6271845645806506947
+    second: ultiamte_cheese_brons_29
+  - first:
+      213: 6692517402333436008
+    second: ultiamte_cheese_brons_30
+  - first:
+      213: -7117693329857556187
+    second: ultiamte_cheese_brons_31
+  - first:
+      213: -6763637564708501012
+    second: ultiamte_cheese_brons_32
+  - first:
+      213: 9191430534841038948
+    second: ultiamte_cheese_brons_33
+  - first:
+      213: -2048873848723439317
+    second: ultiamte_cheese_brons_34
+  - first:
+      213: -8606384595223161417
+    second: ultiamte_cheese_brons_35
+  - first:
+      213: -1792021578269297913
+    second: ultiamte_cheese_brons_36
+  - first:
+      213: -829968186353258045
+    second: ultiamte_cheese_brons_37
+  - first:
+      213: 2715454935120876000
+    second: ultiamte_cheese_brons_38
+  - first:
+      213: 8759474536699726341
+    second: ultiamte_cheese_brons_39
+  - first:
+      213: -5947252681141058088
+    second: ultiamte_cheese_brons_40
+  - first:
+      213: -3439485423431096688
+    second: ultiamte_cheese_brons_41
+  - first:
+      213: 1569198666548511143
+    second: ultiamte_cheese_brons_42
+  - first:
+      213: 288862728990977023
+    second: ultiamte_cheese_brons_43
+  - first:
+      213: 4520596843519617014
+    second: ultiamte_cheese_brons_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280.8889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06416b6bd2e746890800000000000000
+      internalID: -7465703547469425568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 280.8889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89da4fd4856cddb0800000000000000
+      internalID: -4765822684308514419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 280.8889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fc5b98f8dce3840800000000000000
+      internalID: 5205824235661283114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 280.8889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2121b2453b370cf40800000000000000
+      internalID: 5746720338573201938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 280.8889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb97b3551f726400800000000000000
+      internalID: 315954653444938687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fa517ea6a0a1f00800000000000000
+      internalID: 1088193714223165221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 245.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2856ce5b64cbedc0800000000000000
+      internalID: -3608574710976718806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 245.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3cca559a56011a0800000000000000
+      internalID: -6840856056014519366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 245.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cc009fc560e78f0800000000000000
+      internalID: -540987908853543829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 245.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e311890acfd37eab0800000000000000
+      internalID: -4978942707799420610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e007f5698df767010800000000000000
+      internalID: 1186276120071204878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 210.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10c525b7f5ac89f0800000000000000
+      internalID: -464814178211348454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 210.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d12dd2c2ff37ac0800000000000000
+      internalID: -3858459890513994372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 210.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd530d23089f315e0800000000000000
+      internalID: -1939932685462915619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 210.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1c18b856ed97e80800000000000000
+      internalID: -8180262720428195420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1116258ec17c8a0800000000000000
+      internalID: -6285022970832154159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 175.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7b78cdec9a4eba0800000000000000
+      internalID: -6060532492605605955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 175.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c6220e4fa4124f0800000000000000
+      internalID: -855320038630855607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_18
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 175.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2156c614ce17aa0800000000000000
+      internalID: -6164886649157905709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 175.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e8b90ef9ffb2cf0800000000000000
+      internalID: -275845890019979688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d692bfe6cb68810800000000000000
+      internalID: 1767307088635719063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 140.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ca1e90263d2fd90800000000000000
+      internalID: -7065352447364846499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_22
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 140.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1203be711b2a5e360800000000000000
+      internalID: 7198338460915806241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_23
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 140.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2824fde6c2f9500800000000000000
+      internalID: 405091346190336724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 140.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1eb54767562b140800000000000000
+      internalID: 4733957717752537563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487eae78229dd4e30800000000000000
+      internalID: 4489483145890686852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_26
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 105.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d929696d5183df810800000000000000
+      internalID: 1800657092463727261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_27
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 105.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55fb222fdc584050800000000000000
+      internalID: 5784975834778170716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_28
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 105.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a89756b7edde2510800000000000000
+      internalID: 1526401310991554725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 105.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c6f936d9de5f8a0800000000000000
+      internalID: -6271845645806506947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86854337e1990ec50800000000000000
+      internalID: 6692517402333436008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_31
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 70.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5215cada0afd83d90800000000000000
+      internalID: -7117693329857556187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 70.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9cf0e587bb222a0800000000000000
+      internalID: -6763637564708501012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_33
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 70.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468f0e68f558e8f70800000000000000
+      internalID: 9191430534841038948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_34
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 70.888885
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2180490710f093e0800000000000000
+      internalID: -2048873848723439317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b554592fcaff8880800000000000000
+      internalID: -8606384595223161417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_36
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 35.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7037c6d7ed57127e0800000000000000
+      internalID: -1792021578269297913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_37
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 35.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1f985f45c5b74f0800000000000000
+      internalID: -829968186353258045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_38
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 35.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1167b50eb3fa520800000000000000
+      internalID: 2715454935120876000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_39
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 35.88889
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a01137ea7ef8970800000000000000
+      internalID: 8759474536699726341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.8888893
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d50917423d177da0800000000000000
+      internalID: -5947252681141058088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0.8888893
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09661460b3e7440d0800000000000000
+      internalID: -3439485423431096688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_42
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0.8888893
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a104ad8fd9e6c510800000000000000
+      internalID: 1569198666548511143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_43
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0.8888893
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb6b5e1f1f320400800000000000000
+      internalID: 288862728990977023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultiamte_cheese_brons_44
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0.8888893
+        width: 39
+        height: 35.11111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f72db6c0e26cbe30800000000000000
+      internalID: 4520596843519617014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

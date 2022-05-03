@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class HookScript : MonoBehaviour
 {
@@ -13,53 +15,61 @@ public class HookScript : MonoBehaviour
     Vector3 thisPos;
     AudioSource audioSource;
 
+    [SerializeField]
+    LayerMask layerMask;
+    Transform mousePos;
+
+    RaycastHit2D hit;
+
+    [SerializeField]
+    LineRenderer line;
+    Vector2 connectedLinePos = Vector2.zero;
+
     void Awake()
     {
-
-        playerObj = GameObject.Find("Player");
-        if (playerObj != null)
-        {
-            player = playerObj.GetComponent<MovementScript>();
-        }
-
-        rb = GetComponent<Rigidbody2D>();
-        player.hookPos = transform.position;
-
-        audioSource = GetComponent<AudioSource>();
+        player = GetComponent<MovementScript>();
+        line.enabled = false;
+        //line.SetPosition(0, transform.position);
     }
 
     void Update()
     {
-
         player.hookPos = transform.position;
-    }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Ground")
+
+        // Does the ray intersect any objects excluding the player layer
+
+
+        Vector2 cameraPoint = Input.mousePosition;
+        Vector2 worldPoint = Camera.main.ScreenToWorldPoint(cameraPoint);
+
+        Vector2 position = transform.position;
+        float distance = Vector2.Distance(position, worldPoint);
+
+        RaycastHit2D hit = Physics2D.Raycast(position, worldPoint - position, Mathf.Infinity, layerMask);
+
+
+        if(Input.GetMouseButtonDown(0))
         {
-            player.hookHitPos = transform.position;
-            rb.velocity = Vector2.zero;
-            BoxCollider2D box = GetComponent<BoxCollider2D>();
-            box.enabled = false;
-            hitTarget = true;
-            audioSource.Play();
+            if (hit)
+            {
+                Debug.DrawLine(transform.position, worldPoint, Color.green);
+                Debug.DrawRay(position, hit.point - position, Color.red);
+                line.enabled = true;
+                connectedLinePos = hit.point;
+            }
+        }
+        else if(Input.GetMouseButtonUp(0))
+        {
+            line.enabled = false;
+            line.SetPosition(1, position);
+            connectedLinePos = position;
+        }
+        else
+        {
+            line.SetPosition(1, connectedLinePos - position);
         }
     }
 
 
-    //private void OnTriggerEnter2D(Collider2D other)
-    //{
-    //    if (other.gameObject.tag == "Ground")
-    //    {
-    //        Vector3 thisPos = transform.localPosition;
-    //        player.hookHitPos = thisPos;
-
-    //        //print(player.hookHitPos);
-    //        rb.velocity = Vector2.zero;
-    //        BoxCollider2D box = GetComponent<BoxCollider2D>();
-    //        box.enabled = false;
-    //        hitTarget = true;
-    //    }
-    //}
 }

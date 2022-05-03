@@ -131,7 +131,7 @@ public class MovementScript : MonoBehaviour
             {
                 ratAndCogObject.SetActive(false);
                 deathObj.SetActive(true);
-                HookRelease();
+                //HookRelease();
                 rb.constraints = RigidbodyConstraints2D.FreezeAll;
             }
         }
@@ -152,26 +152,26 @@ public class MovementScript : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                    hooking = true;
+                    //hooking = true;
 
-                    if (!hookSpawned)
-                        HookShot();
+                    //if (!hookSpawned)
+                    //    HookShot();
                 }
                 if (hooking)
                 {
-                    hookLine.SetPosition(0, hookPos);
-                    hookLine.SetPosition(1, playerPos);
-                    hookLine.enabled = true;
+                    //hookLine.SetPosition(0, hookPos);
+                    //hookLine.SetPosition(1, playerPos);
+                    //hookLine.enabled = true;
 
-                    if (hookHitPos != Vector2.zero)
-                        HookHold();
+                    //if (hookHitPos != Vector2.zero)
+                    //    HookHold();
                 }
 
                 if (Input.GetKeyUp(KeyCode.Mouse0))
                 {
                     if (hook != null)
                         Destroy(hook);
-                    HookRelease();
+                    //HookRelease();
                     hookSpawned = false;
                     hooked = false;
                 }
@@ -217,79 +217,79 @@ public class MovementScript : MonoBehaviour
         }
     }
 
-    void HookShot()
-    {
-        if (groundSlamming)
-            hookSpawned = true;
+    //void HookShot()
+    //{
+    //    if (groundSlamming)
+    //        hookSpawned = true;
 
-        hookHitPos = Vector2.zero;
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 hookDir = mousePos - (Vector2)transform.position;
+    //    hookHitPos = Vector2.zero;
+    //    mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    //    Vector3 hookDir = mousePos - (Vector2)transform.position;
 
-        float hookAngle = AngleBetweenTwoPoints(transform.position, mousePos);
-        qAngle = Quaternion.Euler(new Vector3(0, 0, hookAngle + 45));
-        hookDir.Normalize();
-        Vector3 playerCenter = transform.localScale / 2;
+    //    float hookAngle = AngleBetweenTwoPoints(transform.position, mousePos);
+    //    qAngle = Quaternion.Euler(new Vector3(0, 0, hookAngle + 45));
+    //    hookDir.Normalize();
+    //    Vector3 playerCenter = transform.localScale / 2;
 
-        hook = Instantiate(projectile, transform.position + playerCenter + hookDir / 2, qAngle) as GameObject;
-        hook.GetComponent<Rigidbody2D>().velocity = hookDir * projectileSpeed;
+    //    hook = Instantiate(projectile, transform.position + playerCenter + hookDir / 2, qAngle) as GameObject;
+    //    hook.GetComponent<Rigidbody2D>().velocity = hookDir * projectileSpeed;
 
-        Vector3 hookPosition = hook.transform.position;
-        //hooker.distance = Vector2.Distance(playerPos, hookPosition);
+    //    Vector3 hookPosition = hook.transform.position;
+    //    //hooker.distance = Vector2.Distance(playerPos, hookPosition);
 
-    }
+    //}
 
     float AngleBetweenTwoPoints(Vector3 a, Vector3 b)
     {
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
     }
 
-    void HookHold()
-    {
-        hooked = true;
+    //void HookHold()
+    //{
+    //    hooked = true;
 
 
-        if (hookHitPos != Vector2.zero)
-            hooker.connectedAnchor = hookHitPos;
+    //    if (hookHitPos != Vector2.zero)
+    //        hooker.connectedAnchor = hookHitPos;
 
-        hooker.enabled = true;
-    }
+    //    hooker.enabled = true;
+    //}
 
-    void HookRelease()
-    {
-        hooking = false;
-        hookLine.enabled = false;
-        hooker.enabled = false;
-    }
+    //void HookRelease()
+    //{
+    //    hooking = false;
+    //    hookLine.enabled = false;
+    //    hooker.enabled = false;
+    //}
 
     #region OldHook
-    void Hook()
-    {
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        hookLine.SetPosition(0, transform.position);
+    //void Hook()
+    //{
+    //    mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    //    hookLine.SetPosition(0, transform.position);
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            formerMousePos = mousePos;
-        }
-        else if (Input.GetMouseButton(0))
-        {
-            RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, Mathf.Infinity, hookAble);
+    //    if (Input.GetMouseButtonDown(0))
+    //    {
+    //        formerMousePos = mousePos;
+    //    }
+    //    else if (Input.GetMouseButton(0))
+    //    {
+    //        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, Mathf.Infinity, hookAble);
 
-            if (hit.collider != null)
-            {
-                Debug.DrawLine(transform.position, formerMousePos, Color.red);
-                //Hooked();
-                hooked = true;
-            }
-        }
-        else
-        {
-            hookLine.enabled = false;
-            hooker.enabled = false;
-            hooked = false;
-        }
-    }
+    //        if (hit.collider != null)
+    //        {
+    //            Debug.DrawLine(transform.position, formerMousePos, Color.red);
+    //            //Hooked();
+    //            hooked = true;
+    //        }
+    //    }
+    //    else
+    //    {
+    //        hookLine.enabled = false;
+    //        hooker.enabled = false;
+    //        hooked = false;
+    //    }
+    //}
 
     //void Hooked()
     //{

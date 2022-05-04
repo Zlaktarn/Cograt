@@ -158,6 +158,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -167,8 +169,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -189,9 +191,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -1176,6 +1181,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ultiamte_cheese_platinum_40: -6480087792526696736
+      ultiamte_cheese_platinum_14: 951090267541375776
+      ultiamte_cheese_platinum_39: 6434054126717398190
+      ultiamte_cheese_platinum_1: 3064200333014659868
+      ultiamte_cheese_platinum_6: 4722220913056533923
+      ultiamte_cheese_platinum_2: -6670208935134660804
+      ultiamte_cheese_platinum_21: 3311927620999583024
+      ultiamte_cheese_platinum_20: 8038277358830874555
+      ultiamte_cheese_platinum_13: 49999073448173813
+      ultiamte_cheese_platinum_41: 4391605707378350456
+      ultiamte_cheese_platinum_27: -9222385702601111340
+      ultiamte_cheese_platinum_0: -2702396522762470852
+      ultiamte_cheese_platinum_3: -2510486448985596310
+      ultiamte_cheese_platinum_10: 5733965679731208660
+      ultiamte_cheese_platinum_31: -978658147134329483
+      ultiamte_cheese_platinum_42: -2673868732183606932
+      ultiamte_cheese_platinum_11: 7944090893909099466
+      ultiamte_cheese_platinum_44: -3237269096708058394
+      ultiamte_cheese_platinum_25: 2440387740713220034
+      ultiamte_cheese_platinum_7: 6740357364988052268
+      ultiamte_cheese_platinum_24: 6974526513046520477
+      ultiamte_cheese_platinum_9: 8535045133825810661
+      ultiamte_cheese_platinum_43: -317770715759100557
+      ultiamte_cheese_platinum_15: 2723850376981410577
+      ultiamte_cheese_platinum_22: 8949714663899302222
+      ultiamte_cheese_platinum_19: -5918027442330742445
+      ultiamte_cheese_platinum_5: 5123434668051416438
+      ultiamte_cheese_platinum_35: -286667404504594540
+      ultiamte_cheese_platinum_29: 4667854527174855432
+      ultiamte_cheese_platinum_26: 4653500928453736187
+      ultiamte_cheese_platinum_16: 9022507777839419072
+      ultiamte_cheese_platinum_32: -1909589126458811363
+      ultiamte_cheese_platinum_36: 624708712735304814
+      ultiamte_cheese_platinum_8: 192535361780163321
+      ultiamte_cheese_platinum_33: -671132729715969434
+      ultiamte_cheese_platinum_12: 4147253171331674158
+      ultiamte_cheese_platinum_4: 7715621791527858924
+      ultiamte_cheese_platinum_28: 1975908544773022922
+      ultiamte_cheese_platinum_34: 5385481799652677450
+      ultiamte_cheese_platinum_37: 6683124919981714856
+      ultiamte_cheese_platinum_38: 4922438167661475202
+      ultiamte_cheese_platinum_18: -6892778425670330418
+      ultiamte_cheese_platinum_30: 4121888894189634633
+      ultiamte_cheese_platinum_17: 6610223509981200077
+      ultiamte_cheese_platinum_23: 1876279847346565343
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

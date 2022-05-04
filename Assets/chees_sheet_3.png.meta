@@ -158,6 +158,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -167,8 +169,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -189,9 +191,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -1176,6 +1181,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      chees_sheet_3_9: 7372102809006138383
+      chees_sheet_3_13: 4935942609389213567
+      chees_sheet_3_23: -1733511993334542808
+      chees_sheet_3_0: 1273679380387952850
+      chees_sheet_3_40: -9076865615219916241
+      chees_sheet_3_16: -1867074678291593046
+      chees_sheet_3_18: 3988329799714983585
+      chees_sheet_3_44: 8705530299667291879
+      chees_sheet_3_21: 8953198809060555982
+      chees_sheet_3_33: -3328578067208050150
+      chees_sheet_3_32: 6548535341552625355
+      chees_sheet_3_25: -6852003771172048536
+      chees_sheet_3_28: -4199760400935067986
+      chees_sheet_3_41: -5665175369250181802
+      chees_sheet_3_7: 6182401458988429077
+      chees_sheet_3_8: -7647855026599187691
+      chees_sheet_3_20: -8020659687298025447
+      chees_sheet_3_14: 3082588687941666986
+      chees_sheet_3_19: -1565463542116547353
+      chees_sheet_3_30: 4328669617955777403
+      chees_sheet_3_26: 1963194949867502301
+      chees_sheet_3_27: -5981357740472785607
+      chees_sheet_3_35: 6298030779525455702
+      chees_sheet_3_43: -6064913450209032137
+      chees_sheet_3_31: -9088029744263113548
+      chees_sheet_3_11: -3569774804853813911
+      chees_sheet_3_15: -2555631694087353720
+      chees_sheet_3_38: -4450911217627151752
+      chees_sheet_3_39: 5956275823995049630
+      chees_sheet_3_34: -5088941079452270130
+      chees_sheet_3_12: 8448576479181317085
+      chees_sheet_3_2: -2976839218756154941
+      chees_sheet_3_42: -2889221450479538088
+      chees_sheet_3_24: -5824764641197581222
+      chees_sheet_3_10: -4033849105680423925
+      chees_sheet_3_37: 793416254675260806
+      chees_sheet_3_3: 2802086740327799640
+      chees_sheet_3_4: -5750808525378711474
+      chees_sheet_3_17: 3657378209997418481
+      chees_sheet_3_5: 2869509406995415779
+      chees_sheet_3_6: -1463781878570429744
+      chees_sheet_3_36: 3690114950099155407
+      chees_sheet_3_1: -6579467707812235885
+      chees_sheet_3_22: -8314541741395613729
+      chees_sheet_3_29: 5861749007479921839
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

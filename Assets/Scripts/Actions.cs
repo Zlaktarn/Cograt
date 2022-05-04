@@ -17,7 +17,8 @@ public class Actions : MonoBehaviour
     Vector2 connectedLinePos;
     DistanceJoint2D hooker = default;
 
-    public bool groundSlamming = false;
+    bool groundSlamming = false;
+    public bool smashing = false;
     [SerializeField]
     float groundSlamVelocity = 8.0f;
     [SerializeField]
@@ -92,7 +93,7 @@ public class Actions : MonoBehaviour
 
     void GroundSlam()
     {
-        if (Input.GetKeyDown(KeyCode.LeftControl) && !isGrounded && !groundSlamming && !hooked)
+        if (Input.GetKeyDown(KeyCode.LeftControl) && !isGrounded && !groundSlamming/* && !hooked*/)
         {
             groundSlamTimer = 0;
             groundSlamming = true;
@@ -100,6 +101,9 @@ public class Actions : MonoBehaviour
 
         if (groundSlamming)
             GroundSlamMechanics();
+
+        if(isGrounded || hooked)
+            smashing = false;
     }
 
     void GroundSlamMechanics()
@@ -114,8 +118,8 @@ public class Actions : MonoBehaviour
             rb.constraints = RigidbodyConstraints2D.None;
             rb.velocity = Vector2.up * -groundSlamVelocity;
 
-            if (isGrounded || hooked)
-                groundSlamming = false;
+            smashing = true;
+            groundSlamming = false;
         }
     }
 }

@@ -15,7 +15,7 @@ public class BreakScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(player.groundSlamming)
+        if(player.smashing)
         {
             Destroy(gameObject);
         }

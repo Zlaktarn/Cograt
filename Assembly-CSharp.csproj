@@ -69,7 +69,7 @@
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\VictoryScript.cs" />
     <Compile Include="Assets\Scripts\MusicBot.cs" />
-    <Compile Include="Assets\Scripts\HookScript.cs" />
+    <Compile Include="Assets\Scripts\Actions.cs" />
     <Compile Include="Assets\Scripts\GameSystemScript.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -5,12 +5,12 @@ using UnityEngine;
 public class BreakScript : MonoBehaviour
 {
     GameObject playerObject;
-    MovementScript player;
+    Actions player;
 
     void Awake()
     {
         playerObject = GameObject.Find("Player");
-        player = playerObject.GetComponent<MovementScript>();
+        player = playerObject.GetComponent<Actions>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

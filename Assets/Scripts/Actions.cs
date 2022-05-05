@@ -14,7 +14,7 @@ public class Actions : MonoBehaviour
     Vector2 position;
 
     LineRenderer line;
-    Vector2 connectedLinePos;
+    Vector2 hookDestination;
     DistanceJoint2D hooker = default;
 
     bool groundSlamming = false;
@@ -30,65 +30,125 @@ public class Actions : MonoBehaviour
     bool isGrounded;
 
     bool hooked;
+    public GameObject hookObject;
+    public float hookShootSpeed = 50;
+    public float hookReturnSpeed = 80;
+    public float hookLength = 10;
+    public float hookInterval = 0;
+    float hookDistance = 0;
+    Vector2 prevHookPos;
+    bool hookDestinationReached;
+    float step = 0;
+
+    float timer = 0;
+
+    RaycastHit2D hit;
+
+    Vector2 hookPos;
 
     void Awake()
     {
         player = GetComponent<MovementScript>();
-        line = GameObject.Find("HookLine").GetComponent<LineRenderer>();
-        line.enabled = false;
         hooker = GetComponent<DistanceJoint2D>();
-        hooker.enabled = false;
         rb = GetComponent<Rigidbody2D>();
-        //line.SetPosition(0, transform.position);
+
+        line = GameObject.Find("HookLine").GetComponent<LineRenderer>();
+        hookPos = hookObject.transform.position;
+        ActivateHook(false);
     }
 
     void Update()
     {
         isGrounded = player.IsGrounded();
-
-
-         position = transform.position;
+        position = transform.position;
 
         Hook();
         GroundSlam();
+
+        hookObject.transform.position = hookPos;
     }
 
     void Hook()
     {
         Vector2 cameraPoint = Input.mousePosition;
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(cameraPoint);
-        RaycastHit2D hit = Physics2D.Raycast(position, worldPoint - position, Mathf.Infinity, layerMask);
 
         if (Input.GetMouseButtonDown(0))
         {
+            hit = Physics2D.Raycast(position, worldPoint - position, hookLength, layerMask);
+            timer = 0;
+            hookDestinationReached = false;
+            prevHookPos = transform.position;
+
             if (hit)
             {
                 Debug.DrawLine(transform.position, worldPoint, Color.green);
                 Debug.DrawRay(position, hit.point - position, Color.red);
-                connectedLinePos = hit.point;
-                line.SetPosition(1, connectedLinePos - position);
-                hooker.connectedAnchor = connectedLinePos;
-                ActivateHook(true);
+                hookDestination = hit.point;
+                hookDistance = Vector2.Distance(prevHookPos, hookDestination);
+            }
+            else
+            {
+                Vector2 direction = (position - worldPoint).normalized;
+                hookDestination = position - direction * hookLength;
+                hookDistance = Vector2.Distance(prevHookPos, hookDestination);
+            }
+            
+            hookInterval = hookDistance / hookShootSpeed;
+            hookPos = Vector3.zero;
+            hookObject.SetActive(true);
+        }
+        else if (Input.GetMouseButton(0))
+        {
+            timer += Time.deltaTime;
+
+            if(hookPos != hookDestination && !hookDestinationReached)
+                hookPos = Vector2.MoveTowards(prevHookPos, hookDestination, hookShootSpeed * timer);
+
+            line.enabled = true;
+            line.SetPosition(1, hookPos - position);
+
+            if (timer >= hookInterval)
+            {
+                hookDestinationReached = true;
+
+                if (hit)
+                {
+                    hooked = true;
+                    hooker.connectedAnchor = hookDestination;
+                    hooker.enabled = true;
+                }
+                else
+                    if(timer >= hookInterval + 0.2f)
+                        ReturnHook();
             }
         }
-        else if (Input.GetMouseButtonUp(0))
-        {
-            ActivateHook(false);
-            line.SetPosition(1, position);
-            connectedLinePos = position;
-        }
         else
-        {
-            line.SetPosition(1, connectedLinePos - position);
-            hooker.connectedAnchor = connectedLinePos;
-        }
+            ReturnHook();
     }
 
+    void ReturnHook()
+    {
+        hooked = false;
+        hooker.enabled = false;
+
+        line.SetPosition(1, hookPos - position);
+        hookPos = Vector2.MoveTowards(hookPos, position, hookReturnSpeed * Time.deltaTime);
+
+        if (hookPos == position)
+        {
+            line.SetPosition(1, position);
+            hookDestination = position;
+            ActivateHook(false);
+            hookDistance = 0;
+        }
+    }
     void ActivateHook(bool isHooking)
     {
+        hooked = isHooking;
         line.enabled = isHooking;
         hooker.enabled = isHooking;
-        hooked = isHooking;
+        hookObject.SetActive(isHooking);
     }
 
     void GroundSlam()

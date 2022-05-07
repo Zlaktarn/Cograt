@@ -35,6 +35,7 @@ public class Actions : MonoBehaviour
     public float hookReturnSpeed = 80;
     public float hookLength = 10;
     public float hookInterval = 0;
+    public float hookMissReturnInterval = 0.1f;
     float hookDistance = 0;
     Vector2 prevHookPos;
     bool hookDestinationReached;
@@ -119,7 +120,7 @@ public class Actions : MonoBehaviour
                     hooker.enabled = true;
                 }
                 else
-                    if(timer >= hookInterval + 0.2f)
+                    if(timer >= hookInterval + hookMissReturnInterval)
                         ReturnHook();
             }
         }

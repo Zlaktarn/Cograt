@@ -83,6 +83,18 @@ Library/ShaderCache.db
 Library/SourceAssetDB-lock
 Library\ArtifactDB
 
+/[Ll]ibrary/APIUpdater/
+/[Ll]ibrary/Artifacts/
+/[Ll]ibrary/BuildPlayerData/
+/[Ll]ibrary/PackageCache/
+/[Ll]ibrary/PackageManager/
+/[Ll]ibrary/PlayerDataCache/
+/[Ll]ibrary/ScriptAssemblies/
+/[Ll]ibrary/ShaderCache/
+/[Ll]ibrary/StateCache/
+/[Ll]ibrary/TempArtifacts/
+/[Ll]ibrary/UIElements/
+
 ~/project/.gitignore
 ~/project/Library
 ~/project/Temp

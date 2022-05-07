@@ -2,6 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -70,18 +77,3 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-Library/ArtifactDB
-Library/ShaderCache.db
-Library/SourceAssetDB
-Library/ArtifactDB-lock
-*.db
-Library/SourceAssetDB-lock
-Library/ShaderCache.db
-*.db
-Library/ArtifactDB-lock
-Library/ShaderCache.db
-Library/SourceAssetDB-lock
-
-~/project/.gitignore
-~/project/Library
-~/project/Temp

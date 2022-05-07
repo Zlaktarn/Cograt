@@ -77,3 +77,7 @@ Library/ArtifactDB-lock
 *.db
 Library/SourceAssetDB-lock
 Library/ShaderCache.db
+*.db
+Library/ArtifactDB-lock
+Library/ShaderCache.db
+Library/SourceAssetDB-lock

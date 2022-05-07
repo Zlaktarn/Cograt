@@ -210,6 +210,11 @@ PrefabInstance:
       propertyPath: m_PointLightOuterRadius
       value: 6.9344583
       objectReference: {fileID: 0}
+    - target: {fileID: 2435250414379912347, guid: 7b034f35fe918724188115a384169f36,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.55
+      objectReference: {fileID: 0}
     - target: {fileID: 3955031177177827843, guid: 7b034f35fe918724188115a384169f36,
         type: 3}
       propertyPath: m_IsActive
